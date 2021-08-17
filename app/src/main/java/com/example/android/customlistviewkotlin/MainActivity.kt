@@ -17,11 +17,17 @@ class MainActivity : AppCompatActivity() {
         var list = mutableListOf<Model>()
 
         // add some images
-        list.add(Model("Facebook", "facebook description..", R.drawable.facebook))
-        list.add(Model("WhatsApp", "whatsapp description..", R.drawable.whatsapp))
-        list.add(Model("Twitter", "twitter description..", R.drawable.twitter))
-        list.add(Model("Instagram", "instagram description..", R.drawable.instagram))
-        list.add(Model("Youtube", "youtube description..", R.drawable.youtube))
+        //list.add(Model("Facebook", "facebook description..", R.drawable.facebook))
+        //list.add(Model("WhatsApp", "whatsapp description..", R.drawable.whatsapp))
+        //list.add(Model("Twitter", "twitter description..", R.drawable.twitter))
+       //list.add(Model("Instagram", "instagram description..", R.drawable.instagram))
+        //list.add(Model("Youtube", "youtube description..", R.drawable.youtube))
+        list.add(Model("Facebook", "facebook description.."))
+        list.add(Model("WhatsApp", "whatsapp description.."))
+        list.add(Model("Twitter", "twitter description.."))
+        list.add(Model("Instagram", "instagram description.."))
+        list.add(Model("Youtube", "youtube description.."))
+
 
         //Create the adapter
         listview.adapter = MyAdapter(this,R.layout.row, list)
